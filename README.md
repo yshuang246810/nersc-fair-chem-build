@@ -4,8 +4,8 @@ Build mamba environment for fair-chem @ NERSC.
 Execute the instructions in order. Refer to the env.gpu.yml file in the Fair-Chem GitHub repository for the packages version.
 https://fair-chem.github.io/core/install.html
 
-'module load conda'
-'mamba create --prefix <your_path> python=3.10 -y'
+'module load conda' \n
+'mamba create --prefix <your_path> python=3.10 -y' \n
 'chgrp -R m4869 <your_path>
 conda activate <your_path>
 mamba install numpy==1.26.4 scipy==1.15.1 ase e3nn pymatgen numba orjson jupyter seaborn pyyaml tqdm submitit tensorboard wandb ipython ipykernel -y
