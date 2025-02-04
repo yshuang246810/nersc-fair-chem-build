@@ -9,7 +9,7 @@ https://fair-chem.github.io/core/install.html
 `mamba create --prefix <your_path> python=3.10 -y`  
 `chgrp -R m4869 <your_path>`  
 `conda activate <your_path>`  
-`mamba install numpy==1.26.4 scipy==1.15.1 ase e3nn pymatgen numba orjson jupyter seaborn pyyaml tqdm submitit tensorboard wandb ipython ipykernel -y`  
+`mamba install numpy==1.26.4 scipy==1.15.1 ase e3nn pymatgen numba orjson jupyter seaborn pyyaml tqdm submitit tensorboard wandb==0.17.2 ipython ipykernel -y`  
 `mamba install -c conda-forge python-lmdb`  
 `pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 -f https://download.pytorch.org/whl/cu121/torch_stable.html`  
 `pip install torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.4.0+cu121.html`  
