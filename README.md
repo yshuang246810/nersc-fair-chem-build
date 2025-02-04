@@ -19,7 +19,5 @@ https://fair-chem.github.io/core/install.html
 `pip install "pynanoflann@git+https://github.com/dwastberg/pynanoflann#egg=af434039ae14bedcbb838a7808924d6689274168",`  
 
 ## Setup environmental kernel for interactive jobs
-`python -m ipykernel install \
-    --user --name fair-chem --display-name fair-chem
-Installed kernelspec fair-chem in /global/u1/e/elvis/.local/share/jupyter/kernels/env`
+`python -m ipykernel install --user --name fair-chem --display-name fair-chem`
 
